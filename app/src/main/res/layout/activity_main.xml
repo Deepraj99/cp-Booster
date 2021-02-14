@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:rowCount="5"
+        android:columnCount="2"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/yellow"
+            android:tag="1"
+            android:text="Prime" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow"
+            android:tag="2"
+            android:text="Prime range" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/yellow"
+            android:tag="3"
+            android:text="lcm" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow"
+            android:tag="4"
+            android:text="hcf" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/yellow"
+            android:tag="5"
+            android:text="power" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow"
+            android:tag="6"
+            android:text="sqrt" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/yellow"
+            android:tag="7"
+            android:text="ncr" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow"
+            android:tag="8"
+            android:text="npr" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/yellow"
+            android:tag="9"
+            android:text="Search" />
+        <Button
+            android:id="@+id/button10"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow"
+            android:tag="10"
+            android:text="exponantial" />
+        <Button
+            android:id="@+id/button11"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/yellow"
+            android:tag="11"
+            android:text="factors" />
+        <Button
+            android:id="@+id/button12"
+            android:layout_columnWeight="1"
+            android:layout_height="160sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow"
+            android:tag="12"
+            android:text="Factorial" />
+
+
+
+
+
+    </GridLayout>
+
+</ScrollView>
